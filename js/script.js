@@ -31,6 +31,8 @@ function addNewToDo() {
         newToDoTrash.addEventListener('click', removeToDo)
 
         newToDoElem.append(newTodoName, newToDoTrash);
+
+        inputElem.value = ''
     }
 };
 
